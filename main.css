@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;600;700&family=Rubik+Microbe&display=swap');
+
+body {    
+  /* CSS GOES HERE  */
+  background-color:whitesmoke;
+  font-family:'Bebas Neue', cursive;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color:#171717;
+  
+
+  /* font-family: 'Rubik Microbe', cursive; */
+  
+}
+h1{
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 80px;
+    
+        margin: auto;
+        width: 70%;
+    margin-bottom: 40px;
+    
+    letter-spacing: 2px;
+    color: darkblue;
+}
+h3{
+    /* width: 40%; */
+    /* margin-left: 600px; */
+    /* margin-top: 100px; */
+}
+p{
+    /* width: 75%; */
+    /* margin-left: 30px; */
+    /* margin-top: 0px; */
+}
+
+
+img{
+    display: block;
+    width: 500px;
+    /* margin-left: 120px; */
+}
+
+/* styling links */
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+/* LoVe & HAte */
+a:link, a:visited{
+    color: rgb(66, 23, 107);
+    font-size: smaller;
+}
+a:hover, a:active{
+    text-decoration: underline;
+    font-size: larger;
+}
+.intro{
+    margin-top: 20px;
+    font-size: larger;
+}
+.designer{
+    margin-top: 20px;
+}
+.links {
+    margin-top: 20px;
+}
+
+/* this gets your boxes next to each other */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 auto;
+    width: 80%;
+}
